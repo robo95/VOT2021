@@ -6,8 +6,12 @@ Preparation history for VOT RGBD-2021 CHALLENGE.
 >
 > anaconda env, python==3.6
 >
+> 
+> <pre>
+> <code>
 > pip install git+https://github.com/votchallenge/vot-toolkit-python
-
+> </code>
+> </pre>
 
 # Setting up the VOT workspace
 >
