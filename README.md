@@ -1,4 +1,5 @@
-## VOT 2021
+### VOT 2021
+
 Preparation history for VOT RGBD-2021 CHALLENGE.
 
 
@@ -13,8 +14,16 @@ Preparation history for VOT RGBD-2021 CHALLENGE.
 > </code>
 > </pre>
 
+
+
 # Setting up the VOT workspace
 >
 > vot initialize <stack-name> --workspace <work-space-path>
 >  
-> ex) vot initialize votrgbd2020 --workspace votrgbd2020
+> ex)
+> <pre>
+> <code>
+> vot initialize votrgbd2020 --workspace votrgbd2020
+> </code>
+> </pre>
+>
