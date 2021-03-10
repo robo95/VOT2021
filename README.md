@@ -4,7 +4,7 @@ Preparation history for VOT RGBD-2021 CHALLENGE.
 
 # VOT Toolkit installation
 >
-> anaconda, python==3.6
+> anaconda env, python==3.6
 >
 > pip install git+https://github.com/votchallenge/vot-toolkit-python
 
