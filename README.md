@@ -1,5 +1,5 @@
 ## VOT 2021
-Preparation repository for VOT RGBD-2021 CHALLENGE.
+Preparation history for VOT RGBD-2021 CHALLENGE.
 
 
 # VOT Toolkit installation
