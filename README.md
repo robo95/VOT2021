@@ -3,7 +3,7 @@
 Preparation history for VOT RGBD-2021 CHALLENGE.
 
 
-> ##VOT Toolkit installation
+##VOT Toolkit installation
 >
 > anaconda env, python==3.6
 > 
@@ -18,7 +18,7 @@ Preparation history for VOT RGBD-2021 CHALLENGE.
 
 
 
-> ## Setting up the VOT workspace
+## Setting up the VOT workspace
 >
 > vot initialize <stack-name> --workspace <work-space-path>
 >  
