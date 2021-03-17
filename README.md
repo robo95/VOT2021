@@ -1,10 +1,9 @@
-### VOT 2021
+# VOT 2021
 
 Preparation history for VOT RGBD-2021 CHALLENGE.
 
-VOT Toolkit python version
--------------------------------------
-VOT Toolkit installation
+
+> ##VOT Toolkit installation
 >
 > anaconda env, python==3.6
 > 
@@ -19,7 +18,7 @@ VOT Toolkit installation
 
 
 
-Setting up the VOT workspace
+> ##Setting up the VOT workspace
 >
 > vot initialize <stack-name> --workspace <work-space-path>
 >  
