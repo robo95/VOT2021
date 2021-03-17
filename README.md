@@ -18,7 +18,7 @@ Preparation history for VOT RGBD-2021 CHALLENGE.
 
 
 
-> ##Setting up the VOT workspace
+> ## Setting up the VOT workspace
 >
 > vot initialize <stack-name> --workspace <work-space-path>
 >  
