@@ -20,7 +20,7 @@ pip install git+https://github.com/votchallenge/vot-toolkit-python
 
 ## Setting up the VOT workspace
 
-ex)
+
 <pre>
 <code>
 vot initialize votrgbd2021 --workspace votrgbd2021
