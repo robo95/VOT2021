@@ -20,10 +20,31 @@ pip install git+https://github.com/votchallenge/vot-toolkit-python
 
 ## Setting up the VOT workspace
 
-
+workspace initialize
 <pre>
 <code>
 vot initialize votrgbd2021 --workspace votrgbd2021
+</code>
+</pre>
+
+tracker evaluate
+<pre>
+<code>
+vot evaluate [tracker-name]
+</code>
+</pre>
+
+evaluate result analysis
+<pre>
+<code>
+vot evaluate [tracker-name]
+</code>
+</pre>
+
+pack the result
+<pre>
+<code>
+vot pack [tracker-name]
 </code>
 </pre>
 
