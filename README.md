@@ -26,3 +26,7 @@ pip install git+https://github.com/votchallenge/vot-toolkit-python
 vot initialize votrgbd2021 --workspace votrgbd2021
 </code>
 </pre>
+
+## Pytracking installation
+
+https://github.com/visionml/pytracking
