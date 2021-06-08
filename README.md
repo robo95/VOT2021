@@ -58,7 +58,7 @@ protocol=traxpython
 
 command = python_ncc
 # Specify a path to trax python wrapper if it is not visible (separate by ; if using multiple paths)
-paths = C:\Users\user\Desktop\python\vot\pytracking
+paths = ...\pytracking
 
 # Additional environment paths
 env_PATH = ...\anaconda3\envs\pytracking;${PATH}
