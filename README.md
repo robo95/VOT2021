@@ -52,16 +52,16 @@ tracker-name은 trackers.ini파일에서 지정
 ex)
 <pre>
 <code>
-[NCC_python]
-label=PyNCC
-protocol=traxpython
+[NCC_python]                                        # tracker-name
+label=PyNCC                                         # label
+protocol=traxpython                                 # vot traxpython protocol. c나 matlab을 쓴다면 바꿔줘야할듯
 
-command = python_ncc
+command = python_ncc                                # .py 파일 이름
 # Specify a path to trax python wrapper if it is not visible (separate by ; if using multiple paths)
-paths = ...\pytracking
+paths = ...\pytracking                              # .py 파일이 있는 경로
 
 # Additional environment paths
-env_PATH = ...\anaconda3\envs\pytracking;${PATH}
+env_PATH = ...\anaconda3\envs\pytracking;${PATH}    # 가상환경 경로 (일단 했는데 꼭 해야되는지 모르겠음)
 </code>
 </pre>
 
