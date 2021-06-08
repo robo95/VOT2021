@@ -49,6 +49,8 @@ vot pack tracker-name
 </pre>
 
 tracker-name은 trackers.ini파일에서 지정
+
+
 ex)
 <pre>
 <code>
