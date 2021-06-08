@@ -30,23 +30,41 @@ vot initialize votrgbd2021 --workspace votrgbd2021
 tracker evaluate
 <pre>
 <code>
-vot evaluate [tracker-name]
+vot evaluate tracker-name
 </code>
 </pre>
 
 evaluate result analysis
 <pre>
 <code>
-vot evaluate [tracker-name]
+vot evaluate tracker-name
 </code>
 </pre>
 
 pack the result
 <pre>
 <code>
-vot pack [tracker-name]
+vot pack tracker-name
 </code>
 </pre>
+
+tracker-name은 trackers.ini파일에서 지정
+ex)
+<pre>
+<code>
+[NCC_python]
+label=PyNCC
+protocol=traxpython
+
+command = python_ncc
+# Specify a path to trax python wrapper if it is not visible (separate by ; if using multiple paths)
+paths = C:\Users\user\Desktop\python\vot\pytracking
+
+# Additional environment paths
+env_PATH = ...\anaconda3\envs\pytracking;${PATH}
+</code>
+</pre>
+
 
 ## Pytracking installation (windows 10)
 
