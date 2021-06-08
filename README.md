@@ -18,7 +18,7 @@ pip install git+https://github.com/votchallenge/vot-toolkit-python
 
 
 
-## Setting up the VOT workspace
+## toolkit usage
 
 workspace initialize
 <pre>
