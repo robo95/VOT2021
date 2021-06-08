@@ -33,3 +33,8 @@ https://github.com/visionml/pytracking
 
 
 !! pytracking/evaluate/local.py 파일에 경로 \ (역슬래시) -> / (슬래시) 수정
+
+!! pytracking내에 networks 폴더 생성후 pytracking/networks에 pre-trained networks 저장
+
+https://drive.google.com/drive/folders/1WVhJqvdu-_JG1U-V0IqfxTUa1SBPnL0O
+
