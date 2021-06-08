@@ -28,8 +28,21 @@ vot initialize votrgbd2021 --workspace votrgbd2021
 </pre>
 
 
-아래부터는 workspace 경로 안에서 실행. 아니면 --workspace path로 지정해줄 수 있음
+아래부터는 workspace 경로 안에서 실행. 아니면 --workspace workspace_path로 지정해줄 수 있음
 
+tracker test
+
+test는 rgb dummy image에 대해 실행하기 때문에, RGBT 또는 RGBD 트래커는 실행이 안됨. 
+
+test하고싶은 sequence를 지정해주면 가능. --sequence data_path
+
+windows환경에서는 visualize도 안되는것 같음.
+
+<pre>
+<code>
+vot test tracker-name
+</code>
+</pre>
 
 tracker evaluate
 <pre>
@@ -46,6 +59,9 @@ vot evaluate tracker-name
 </pre>
 
 pack the result
+
+원래 오류가 있었으나, 챌린지 도중 툴킷 새 버전이 나와서 오류 수정됨.
+
 <pre>
 <code>
 vot pack tracker-name
