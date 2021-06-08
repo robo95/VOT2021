@@ -27,6 +27,10 @@ vot initialize votrgbd2021 --workspace votrgbd2021
 </code>
 </pre>
 
+
+아래부터는 workspace 경로 안에서 실행. 아니면 --workspace path로 지정해줄 수 있음
+
+
 tracker evaluate
 <pre>
 <code>
