@@ -32,4 +32,4 @@ vot initialize votrgbd2021 --workspace votrgbd2021
 https://github.com/visionml/pytracking
 
 
-! pytracking/evaluate/local.py 파일에 경로 '.\' -> '/' 수정 !
+! pytracking/evaluate/local.py 파일에 경로 ''\'' -> '/' 수정 !
