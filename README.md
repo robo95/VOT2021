@@ -27,6 +27,6 @@ vot initialize votrgbd2021 --workspace votrgbd2021
 </code>
 </pre>
 
-## Pytracking installation
+## Pytracking installation (windows 10)
 
 https://github.com/visionml/pytracking
