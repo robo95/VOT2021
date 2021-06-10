@@ -104,7 +104,7 @@ https://drive.google.com/drive/folders/1WVhJqvdu-_JG1U-V0IqfxTUa1SBPnL0O
 
 !! ltr/admin/local.py 파일에 경로 \ (역슬래시) -> / (슬래시) 수정
 
-windows 운영체제에서는 jpeg4py, jpeg-turbo 세팅하기 귀찮아보임.
+windows 운영체제에서는 jpeg4py, jpeg-turbo 세팅하기 귀찮아보임. (NOT Recommended!)라고 한 이유를 몸소 겪음...
 
 dataset 폴더에 있는 파일에서 image_loader를 opencv_loader로 바꿔줌.
 
