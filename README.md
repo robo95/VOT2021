@@ -100,6 +100,8 @@ pytracking내에 networks 폴더 생성후 pytracking/networks에 pre-trained ne
 
 https://drive.google.com/drive/folders/1WVhJqvdu-_JG1U-V0IqfxTUa1SBPnL0O
 
+이제 vot toolkit과 연동해서 사용할 수 있음.
+
 ### ltr
 
 !! ltr/admin/local.py 파일에 경로 \ (역슬래시) -> / (슬래시) 수정
