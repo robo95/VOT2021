@@ -92,10 +92,29 @@ env_PATH = ...\anaconda3\envs\pytracking;${PATH}    # 가상환경 경로 (일�
 
 https://github.com/visionml/pytracking
 
+### Pytracking
 
 !! pytracking/evaluate/local.py 파일에 경로 \ (역슬래시) -> / (슬래시) 수정
 
-!! pytracking내에 networks 폴더 생성후 pytracking/networks에 pre-trained networks 저장
+pytracking내에 networks 폴더 생성후 pytracking/networks에 pre-trained networks 저장
 
 https://drive.google.com/drive/folders/1WVhJqvdu-_JG1U-V0IqfxTUa1SBPnL0O
 
+### ltr
+
+!! ltr/admin/local.py 파일에 경로 \ (역슬래시) -> / (슬래시) 수정
+
+windows 운영체제에서는 jpeg4py, jpeg-turbo 세팅하기 귀찮아보임.
+
+dataset 폴더에 있는 파일에서 image_loader를 opencv_loader로 바꿔줌.
+
+
+image_loader=opencv_loader
+
+<pre>
+<code>
+...
+def __init__(self, root=None, image_loader=opencv_loader, split=None, seq_ids=None, data_fraction=None):
+...
+</code>
+</pre>
